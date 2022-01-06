@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* add border box to sizing so that if you add padding it doesn't affect the width */
+/* display flex to center stuff */
+/* flex direction column so that things appear vertically, otherwise will be horizontal */
+/* height 100vh (view port) means that it's centered for the entire length of the page */
+/* overflow hidden so that scroll bar is hidden by default */
+
+/* COLORS #faa2c1 #fcc2d7 #ffdeeb #fff0f6*/
+/* GRAY #343a40 #495057 #868e96 #adb5bd*/
+/* PINK AND GRAY #E78EA5 #FEB8CE #373737*/
+* {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: 250px 1fr 1fr;
+  gap: 20px;
+  /* align-content: center; */
+  padding: 20px 20px;
+  background-color: #ffdeeb;
+  color: #faa2c1;
+  margin: 40px 60px;
+  margin-left: 20px;
+  border-radius: 40px;
+  font-size: 40px;
+  box-shadow: 2px 2px 2px #e78ea5;
+}
+.profile-picture {
+  grid-column: 1fr;
+  border-radius: 40px;
+}
+.grid-col-2 {
+  grid-column: 2 span;
+  justify-self: start;
+}
+/* ACCORDIAN */
+.accordian {
+  width: 300px;
+  margin: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.about-me {
+  display: inline-block;
+  background-color: #faa2c1;
+  line-height: 1.5;
+  padding: 20px;
+  margin-right: 40px;
+  box-shadow: 0 10 10 #495057;
+  border-radius: 40px;
+  width: 300px;
+  float: right;
+}
+.about-me:hover {
+  color: #fff0f6;
+  box-shadow: 10 10 10 #495057;
+}
+
+nav a:link,
+nav a:visited {
+  color: #495057;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px;
+}
+nav a:hover {
+  color: #fff0f6;
+  background-color: #e78ea5;
+  border-radius: 100px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+/* header {
+  display: grid;
+  align-content: center;
+  align-items: center;
+}
+body {
+  margin: 50px 40px;
+  padding: 20px;
+  /* margin-top: 50px; */
+/* display: relative;
+}
+.profile-picture {
+  height: 250px;
+  width: 250px;
+  border-radius: 50px;
+  box-shadow: 0px 5px 10px #faa2c1;
+}
+nav {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+nav a:link {
+  text-decoration: none;
+  color: rgb(209, 97, 153);
+  padding: 20px;
+  align-items: center;
+  align-content: center;
+}
+nav a:visited {
+  color: rgb(209, 97, 153);
+}
+.first-header {
+  font-size: 50px;
+  text-align: center;
+  padding: 20px;
+}
+.about-me-paragraph {
+  margin-bottom: 30px;
+}
+ul {
+  padding: 10px;
+}
+.more-about-slp {
+  margin-bottom: 20px;
+}
+p a:link {
+  text-decoration: none;
+  color: rgb(209, 97, 153);
+}
+p a:visited {
+  color: rgb(209, 97, 153);
+}
+footer {
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+.email {
+  text-decoration: none;
+  color: rgb(209, 97, 153);
+  margin-bottom: 20px;
+}
+.email:hover {
+  background-color: rgb(209, 97, 153);
+  color: gray;
+} */
